@@ -7,7 +7,7 @@ print(n)
 
 #Transposta da array n
 n.T
-print(np.transpose(n))
+np.transpose(n)
 
 #Estatísticas (min, max, sum, mean, median, etc.)
 n.max()
@@ -33,6 +33,14 @@ soma = p1 + p2
 
 print(f'A soma dos elementos é: {soma}')
 p1 + p2
+
+print(f'p1:\n{p1}\n')
+print(f'p2:\n{p2}\n')
+print(f'p1 @ p2:\n{p1@p2}\n')
+print(f'np.dot(p1,p2):\n{np.dot(p1,p2)}')
+
+#fazendo operação com transposta
+print(np.transpose(p1+p2))
 
 #Reshape de array
 
