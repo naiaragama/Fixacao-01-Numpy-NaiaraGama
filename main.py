@@ -3,11 +3,11 @@ n = np.array([[5, 8, 3],
              [9, 10, 7],
              [4, 10, 7]]
              )
-n
+print(n)
 
 #Transposta da array n
 n.T
-np.transpose(n)
+print(np.transpose(n))
 
 #Estatísticas (min, max, sum, mean, median, etc.)
 n.max()
